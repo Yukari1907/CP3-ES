@@ -1,0 +1,17 @@
+Como analista de requisitos, elaborei uma lista estratégica para o seu app de divisão de contas (vamos chamá-lo de Racha Role). O foco é transformar a experiência caótica de fechar uma conta em algo simples e justo.
+
+Aqui estão os requisitos:
+
+Requisitos Funcionais (O que o app faz)
+
+- Gestão de Participantes e Itens: O sistema deve permitir adicionar participantes e lançar itens da conta (nome e preço), permitindo associar cada item a um ou mais consumidores específicos.
+- Cálculo Dinâmico de Taxas: O app deve oferecer a opção de aplicar taxa de serviço (como os 10% do garçom), couvert artístico e gorjetas, permitindo escolher se essas taxas incidem sobre itens específicos ou sobre o total da conta.
+- Divisão Personalizada (Individual vs. Compartilhada): O usuário deve conseguir definir se um item (ex: uma torre de chopp) será dividido igualmente entre todos ou apenas entre um subgrupo selecionado de pessoas.
+- Resumo de Acerto de Contas: O sistema deve gerar um relatório final consolidado, detalhando quanto cada pessoa deve pagar e, opcionalmente, sugerir a forma mais eficiente de realizar os pagamentos (pelas "transferências mínimas").
+- Exportação e Compartilhamento: O app deve permitir exportar o resumo da conta em formato de texto amigável ou imagem para ser enviado diretamente via WhatsApp ou outros aplicativos de mensagem.
+
+Requisitos Não Funcionais (Como o app se comporta)
+
+- Responsividade Mobile-First: A interface deve ser projetada prioritariamente para dispositivos móveis, com elementos táteis grandes e legibilidade clara em ambientes com pouca luz (bares/baladas).
+- Persistência de Dados Local (Offline-first): O aplicativo deve salvar o estado da conta localmente no dispositivo (LocalStorage), garantindo que os dados não sejam perdidos caso o navegador seja fechado ou a conexão caia.
+- Usabilidade e Velocidade: O cálculo e a atualização da interface devem ser instantâneos para evitar atrasos no fechamento da conta.git a
