@@ -1,0 +1,17 @@
+Requisitos Funcionais (RF)
+
+RF01: O sistema deve converter temperatura de Celsius para Fahrenheit.
+
+RF02: O sistema deve converter temperatura de Fahrenheit para Celsius.
+
+RF03: O sistema deve permitir que o usuário escolha o tipo de conversão e informe o valor da temperatura.
+
+RF04: O sistema deve exibir o resultado da conversão formatado com uma casa decimal.
+
+Requisitos Não-Funcionais (RNF)
+
+RNF01 (Usabilidade): O sistema deve possuir interface simples e intuitiva no terminal.
+
+RNF02 (Desempenho): A conversão deve ser realizada imediatamente após a entrada do usuário.
+
+RNF03 (Confiabilidade): O sistema deve tratar entradas inválidas (ex: letras no lugar de números).
