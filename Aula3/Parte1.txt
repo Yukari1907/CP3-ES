@@ -1,0 +1,15 @@
+Requisitos Funcionais (RF)
+
+RF01: O sistema deve cadastrar treinos dos alunos
+
+RF02: O sistema deve validar os dados do exercício antes de registrar
+
+RF03: O sistema deve armazenar o histórico de treinos do aluno
+
+Requisitos Não Funcionais (RNF)
+
+RNF01: O sistema deve registrar o treino em menos de 200ms
+
+RNF02: O sistema deve garantir disponibilidade de 99% ao mês
+
+RNF03: O sistema deve proteger os dados dos usuários com criptografia

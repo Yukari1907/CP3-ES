@@ -1,0 +1,9 @@
+# REFLEXÃO:
+1. Qual a diferença entre RF e RNF que você percebeu na prática?
+Requisitos Funcionais (RF) especificam as funcionalidades do sistema, ou seja, descrevem os serviços, comportamentos e regras de negócio que o software deve implementar. Já os Requisitos Não Funcionais (RNF) definem atributos de qualidade e restrições do sistema, como desempenho, segurança, confiabilidade e usabilidade, estabelecendo critérios mensuráveis para avaliar se o sistema atende aos padrões esperados.
+
+2. O que aconteceria se esquecêssemos o RNF de performance?
+A ausência de um RNF de desempenho poderia resultar em um sistema funcionalmente correto, porém ineficiente. Isso comprometeria a experiência do usuário, reduziria a escalabilidade da aplicação e poderia gerar impactos negativos como insatisfação dos clientes e perda de competitividade no mercado.
+
+3. Cite 1 RNF que o GymTrack deveria ter mas que você não implementou
+O sistema deve garantir alta disponibilidade (por exemplo, 99% de uptime mensal), assegurando que os usuários possam registrar e consultar treinos mesmo em horários de pico, minimizando indisponibilidades.
