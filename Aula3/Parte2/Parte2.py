@@ -5,7 +5,7 @@ print("=" * 40)
 
 # --- DADOS DO TREINO (mude os valores para testar!) ---
 exercicio = "Supino Reto"
-peso_kg   = 80
+peso_kg  = 80
 repeticoes = 10
 
 # -------------------------------------------------------
