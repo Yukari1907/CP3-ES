@@ -1,0 +1,21 @@
+UC-02: Emprestar Livro
+
+Ator: Leitor
+
+Pré-condições:
+Usuário cadastrado
+Livro existe no catálogo
+
+Fluxo Principal:
+1. O leitor informa o título do livro
+2. O sistema verifica a disponibilidade
+3. O sistema registra o empréstimo
+4. O sistema marca o livro como indisponível
+
+Fluxo de Exceção:
+Livro não encontrado → exibir erro
+Livro indisponível → informar que já está emprestado
+
+Pós-condições:
+Livro fica indisponível no catálogo
+Empréstimo registrado no sistema
